@@ -4,7 +4,7 @@ from agents import blog_researcher,blog_writer
 
 ## Research Task
 
-task = Task(
+research = Task(
     description=("Identify the video {topic}."
     "Get detailed information about the video from the channel video."),
     agent= blog_researcher,
